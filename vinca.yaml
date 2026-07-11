@@ -107,6 +107,17 @@ packages_select_by_deps:
       - turtlebot4_base
       - turtlebot4_setup
 
+  - irobot_create_toolbox
+  - irobot_create_nodes
+  - irobot_create_description
+  - irobot_create_control
+  - irobot_create_common_bringup
+  - irobot_create_gz_toolbox
+  - irobot_create_gz_plugins
+  - irobot_create_gz_bringup
+  - irobot_create_gz_sim
+  - irobot_create_msgs
+
   - ackermann-msgs
   - sbg_driver
 
