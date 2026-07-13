@@ -174,5 +174,9 @@ apriltag:
 ouster_ros:
   additional_cmake_args: "-DOUSTER_USE_VCPKG_IF_AVAILABLE=OFF"
 # Remove everything after this line on a full rebuild
+turtlebot4_node:
+  build_number: 19
+turtlebot4_gz_toolbox:
+  build_number: 19
 realtime_tools:
   build_number: 19
