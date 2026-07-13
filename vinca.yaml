@@ -84,25 +84,39 @@ packages_select_by_deps:
   - turtlebot3
   - turtlebot3_simulations
 
-  # TurtleBot 4 officially supports Linux only.
+  - turtlebot4_description
+  - turtlebot4_msgs
+  - turtlebot4_navigation
+  - turtlebot4_node
+
+  - turtlebot4_desktop
+  - turtlebot4_viz
+
+  - turtlebot4_gz_gui_plugins
+  - turtlebot4_gz_toolbox
+  - turtlebot4_gz_bringup
+  - turtlebot4_simulator
+
   - if: linux
-    then:
-      - turtlebot4_base
-      - turtlebot4_bringup
-      - turtlebot4_description
-      - turtlebot4_desktop
-      - turtlebot4_diagnostics
-      - turtlebot4_gz_bringup
-      - turtlebot4_gz_gui_plugins
-      - turtlebot4_gz_toolbox
-      - turtlebot4_msgs
-      - turtlebot4_navigation
-      - turtlebot4_node
+    then: 
       - turtlebot4_robot
-      - turtlebot4_setup
-      - turtlebot4_simulator
+      - turtlebot4_bringup
       - turtlebot4_tests
-      - turtlebot4_viz
+      - turtlebot4_diagnostics
+      - turtlebot4_bringup
+      - turtlebot4_base
+      - turtlebot4_setup
+
+  - irobot_create_toolbox
+  - irobot_create_nodes
+  - irobot_create_description
+  - irobot_create_control
+  - irobot_create_common_bringup
+  - irobot_create_gz_toolbox
+  - irobot_create_gz_plugins
+  - irobot_create_gz_bringup
+  - irobot_create_gz_sim
+  - irobot_create_msgs
 
   - ackermann-msgs
   - sbg_driver
