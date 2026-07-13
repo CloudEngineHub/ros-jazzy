@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 5d03643..15dcb6c 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -30,7 +30,7 @@ include_directories(
+   include
+ )
+ 
+-add_library(${PROJECT_NAME}_lib
++add_library(${PROJECT_NAME}_lib STATIC
+   "src/hmi_main.cpp"
+   "src/hmi_node.cpp"
+ )
