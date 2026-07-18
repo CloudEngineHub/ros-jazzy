@@ -178,6 +178,7 @@ py_trees:
     dep_name: py-trees
     max_pin: 'x.x.x'
     override_version: '2.5.0'
+  build_number: 19
 # Remove everything after this line on a full rebuild
 turtlebot4_node:
   build_number: 20
